@@ -1,0 +1,14 @@
+{
+    "name": "Clayton Eduard",
+    "job": "Desenvolvedor Java",
+    "github": "ClaytonEduard",
+    "playlists": {
+        "jogos": [
+            {
+                "title": "Algum titulo",
+                "url": "http://",
+                "thumb": "thumbmail do video"
+            }
+        ]
+    }
+}
