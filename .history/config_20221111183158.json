@@ -47,24 +47,24 @@
         ],
         "front-end": [
             {
-                "title": "DICA EM 3 MINUTOS - NUMBER - Alessandro Dev",
+                "title": "DICA EM 3 MINUTOS - NUMBER",
                 "url": "https://youtu.be/4rOFqMgb8nI",
                 "thumb": "https://i.ytimg.com/vi/4rOFqMgb8nI/hqdefault.jpg"
             },
             {
-                "title": "[Programação Web com Java] 312 - Menus Dinâmicos - Parte 1",
-                "url": "https://youtu.be/AzzXGFXsiZ4?list=PL_GwGUsBlNyfI0W3ggfffhBdJUqB4981Z",
-                "thumb": "https://i.ytimg.com/vi/9PGp1T242hA/hqdefault.jpg?"
+                "title": "Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!!",
+                "url": "https://www.youtube.com/watch?v=llF6vD-RljE",
+                "thumb": "https://img.youtube.com/vi/llF6vD-RljE/hqdefault.jpg"
             },
             {
-                "title": "DICA EM 3 MINUTOS - NULL & UNDEFINED - Alessandro Dev",
-                "url": "https://youtu.be/_HT9FtW2InE",
-                "thumb": "https://i.ytimg.com/vi/4rOFqMgb8nI/hqdefault.jpg"
+                "title": "A Primeira Aula de Flutter Que Todo Mundo Deveria Ter",
+                "url": "https://www.youtube.com/watch?v=J4BVaXkwmM8",
+                "thumb": "https://img.youtube.com/vi/J4BVaXkwmM8/hqdefault.jpg"
             },
             {
-                "title": "Sistema Web Introducao Front end Html5 css3 javascript Booostrap AngularJS Back end Java",
-                "url": "https://youtu.be/QalZw0dLT00?list=PLGFfUAt_pphL7d1mCqViLTYv6Apnj02J0",
-                "thumb": "https://i.ytimg.com/vi/QalZw0dLT00/hqdefault.jpg"
+                "title": "O QUE SÃO FRAMEWORKS E BIBLIOTECAS? QUAIS AS DIFERENÇAS?",
+                "url": "https://www.youtube.com/watch?v=dp0zB4n3MUs",
+                "thumb": "https://img.youtube.com/vi/dp0zB4n3MUs/hqdefault.jpg"
             },
             {
                 "title": "Angular (O Vídeo que Você Precisava para Começar no Framework) // Dicionário do Programador",
@@ -72,9 +72,9 @@
                 "thumb": "https://img.youtube.com/vi/Yf0rC7dERjg/hqdefault.jpg"
             },
             {
-                "title": "DICA EM 3 MINUTOS - BOOLEAN - Alessandro Dev",
-                "url": "https://youtu.be/7j3UieoMCCA",
-                "thumb": "https://i.ytimg.com/vi/4rOFqMgb8nI/hqdefault.jpg"
+                "title": "Como Foi Programado um App Que Faz Mágica",
+                "url": "https://www.youtube.com/watch?v=I36seuWUe5s",
+                "thumb": "https://img.youtube.com/vi/I36seuWUe5s/hqdefault.jpg"
             },
             {
                 "title": "O que todo iniciante em Front End deveria aprender | Como manipular arrays e objetos em JavaScript",
@@ -85,6 +85,11 @@
                 "title": "5 Erros Históricos do CSS",
                 "url": "https://www.youtube.com/watch?v=HNjkqONzGS0",
                 "thumb": "https://img.youtube.com/vi/HNjkqONzGS0/hqdefault.jpg"
+            },
+            {
+                "title": "Deploy de Front End ATUALIZADO! | O que eu uso para hospedagem de Front End",
+                "url": "https://www.youtube.com/watch?v=d9c0r-J6CdM",
+                "thumb": "https://img.youtube.com/vi/d9c0r-J6CdM/hqdefault.jpg"
             }
         ],
         "back-end": [

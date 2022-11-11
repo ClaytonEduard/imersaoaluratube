@@ -52,9 +52,9 @@
                 "thumb": "https://i.ytimg.com/vi/4rOFqMgb8nI/hqdefault.jpg"
             },
             {
-                "title": "[Programação Web com Java] 312 - Menus Dinâmicos - Parte 1",
-                "url": "https://youtu.be/AzzXGFXsiZ4?list=PL_GwGUsBlNyfI0W3ggfffhBdJUqB4981Z",
-                "thumb": "https://i.ytimg.com/vi/9PGp1T242hA/hqdefault.jpg?"
+                "title": "Como Foi Programado um App Que Faz Mágica",
+                "url": "https://www.youtube.com/watch?v=I36seuWUe5s",
+                "thumb": "https://img.youtube.com/vi/I36seuWUe5s/hqdefault.jpg"
             },
             {
                 "title": "DICA EM 3 MINUTOS - NULL & UNDEFINED - Alessandro Dev",
@@ -85,6 +85,11 @@
                 "title": "5 Erros Históricos do CSS",
                 "url": "https://www.youtube.com/watch?v=HNjkqONzGS0",
                 "thumb": "https://img.youtube.com/vi/HNjkqONzGS0/hqdefault.jpg"
+            },
+            {
+                "title": "Deploy de Front End ATUALIZADO! | O que eu uso para hospedagem de Front End",
+                "url": "https://www.youtube.com/watch?v=d9c0r-J6CdM",
+                "thumb": "https://img.youtube.com/vi/d9c0r-J6CdM/hqdefault.jpg"
             }
         ],
         "back-end": [
