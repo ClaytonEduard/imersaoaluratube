@@ -20,9 +20,9 @@ function HomePage () {
             }}>
                 <Menu />
                 <Header />
-                <TimeLine playlists={config.playlists}>
+                <Timeline playlists={config.playlists}>
                     Conteúdo
-                </TimeLine>
+                </Timeline>
             </div>
     </>
   )
@@ -63,17 +63,17 @@ function Header () {
     </StyledHeader>
   )
 }
-function TimeLine (props) {
-  //console.log('Dentro do componente: ', props.playlists)
-  const playlistNames = Object.keys(props.playlists)
+function Timeline (propriedades) {
+
+  const playlistNames = Object.keys(propriedades.playlists);
   //statement
   // retorno por expressao
   return (
     <StyledTimeline>
       {playlistNames.map((playlistName) => {
-        const videos = props.playlists[playlistName]
-        console.log(playlistName)
-        console.log(videos)
+        const videos = propriedades.playlists[playlistName];
+        console.log(playlistName);
+        console.log(videos);
         return (
           <section>
             <h2>{playlistName}</h2>
