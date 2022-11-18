@@ -1,29 +1,31 @@
 import config from '../config.json'
 import styled from 'styled-components'
-import {CSSReset} from "../src/components/CSSReset";
-import Menu from "../src/components/Menu";
-import { StyledTimeline } from '../src/components/Timeline';
-
+import { CSSReset } from '../src/components/CSSReset'
+import Menu from '../src/components/Menu'
+import { StyledTimeline } from '../src/components/Timeline'
+import logo from '../src/resources/ilya-pavlov-OqtafYT5kTw-unsplash2.jpg'
 function HomePage () {
-  const estilosHomePage = { //backgroundColor: 'red'
-   }
+  const estilosHomePage = {
+    //backgroundColor: 'red'
+  }
   //console.log(config.playlists)
 
   return (
     <>
       <CSSReset />
-            <div style={{
-                display: "flex",
-                flexDirection: "column",
-                flex: 1,
-                // backgroundColor: "red",
-            }}>
-                <Menu />
-                <Header />
-                <Timeline playlists={config.playlists}>
-                    Conteúdo
-                </Timeline>
-            </div>
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'column',
+          flex: 1
+          // backgroundColor: "red",
+        }}
+      >
+        <Menu />
+        <Banner/>
+        <Header />
+        <Timeline playlists={config.playlists}>Conteúdo</Timeline>
+      </div>
     </>
   )
 }
@@ -48,11 +50,29 @@ const StyledHeader = styled.div`
     padding: 16px 32px;
     gap: 16px;
   }
-`;
+`
+
+const StyledBanner = styled.div`
+  img {
+    width: 100%;
+    height: 100px;
+    margin-top: 55px;
+  }
+`
+function Banner () {
+  return (
+    <StyledBanner>
+      <div>
+        <img src={
+          `pages/futuristic-smart-city-with-5g-global-network-technology.jpg`}/>
+      </div>
+    </StyledBanner>
+  );
+}
+
 function Header () {
   return (
     <StyledHeader>
-      {/*<img src='Baner'></img>*/}
       <section className='user-info'>
         <img src={`https://github.com/${config.github}.png`} />
         <div>
@@ -64,21 +84,20 @@ function Header () {
   )
 }
 function Timeline (propriedades) {
-
-  const playlistNames = Object.keys(propriedades.playlists);
+  const playlistNames = Object.keys(propriedades.playlists)
   //statement
   // retorno por expressao
   return (
     <StyledTimeline>
-      {playlistNames.map((playlistName) => {
-        const videos = propriedades.playlists[playlistName];
-        console.log(playlistName);
-        console.log(videos);
+      {playlistNames.map(playlistName => {
+        const videos = propriedades.playlists[playlistName]
+        console.log(playlistName)
+        console.log(videos)
         return (
           <section>
             <h2>{playlistName}</h2>
             <div>
-              {videos.map((video) => {
+              {videos.map(video => {
                 return (
                   <a href={video.url}>
                     <img src={video.thumb} />
